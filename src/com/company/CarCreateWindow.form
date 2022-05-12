@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.CarCreateWindow">
+  <grid id="27dc6" binding="creatingWindow" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="40" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="919"/>
+    </constraints>
+    <properties>
+      <background color="-14868964"/>
+    </properties>
+    <border type="line">
+      <color color="-1"/>
+    </border>
+    <children>
+      <grid id="9ef92" binding="caroseriaPanel" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14868964"/>
+          <foreground color="-1"/>
+          <preferredSize width="300" height="400"/>
+        </properties>
+        <border type="empty" title="Caroseria">
+          <font name="Bahnschrift" size="22" style="1"/>
+          <title-color color="-1"/>
+          <color color="-1"/>
+        </border>
+        <children>
+          <component id="b5dfe" class="javax.swing.JLabel" binding="modelTextField">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-6579301"/>
+              <text value="Model"/>
+            </properties>
+          </component>
+          <component id="a8165" class="javax.swing.JTextField" binding="caroseriaModelField">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="2986" class="javax.swing.JLabel" binding="caroseriaWeightTextField">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-6579301"/>
+              <text value="Weight"/>
+            </properties>
+          </component>
+          <component id="d04e0" class="javax.swing.JTextField" binding="caroseriaWeightField">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="69d8b" class="javax.swing.JLabel" binding="caroseriaPriceTextField">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-6579301"/>
+              <text value="Price"/>
+            </properties>
+          </component>
+          <component id="4c037" class="javax.swing.JTextField" binding="caroseriaPriceField">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="199ca" class="javax.swing.JLabel" binding="numTextField">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-6579301"/>
+              <text value="Registration"/>
+            </properties>
+          </component>
+          <component id="90861" class="javax.swing.JLabel" binding="wheelsTextField">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-6579301"/>
+              <text value="Wheels"/>
+            </properties>
+          </component>
+          <component id="9e11a" class="javax.swing.JTextField" binding="caroseriaRegField">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="c9608" class="javax.swing.JComboBox" binding="wheelsComboBox">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="16"/>
+                <item value="17"/>
+                <item value="18"/>
+                <item value="21"/>
+                <item value="23"/>
+              </model>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="abd47" binding="clutchPanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14868964"/>
+          <preferredSize width="800" height="600"/>
+        </properties>
+        <border type="empty" title="Clutch">
+          <font name="Bahnschrift" size="22" style="1"/>
+          <title-color color="-1"/>
+        </border>
+        <children>
+          <component id="c7a6a" class="javax.swing.JLabel" binding="clutchTextField">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-6579301"/>
+              <text value="Model"/>
+            </properties>
+          </component>
+          <component id="3749f" class="javax.swing.JComboBox" binding="clutchComboBox">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="standard"/>
+                <item value="comfort"/>
+                <item value="sport"/>
+              </model>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="c6dfa" binding="gearBoxPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14868964"/>
+          <preferredSize width="800" height="600"/>
+        </properties>
+        <border type="empty" title="Gearbox">
+          <font name="Bahnschrift" size="22" style="1"/>
+          <title-color color="-1"/>
+        </border>
+        <children>
+          <component id="e0493" class="javax.swing.JLabel" binding="gearboxTextField">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-6579301"/>
+              <text value="Model"/>
+            </properties>
+          </component>
+          <component id="6ccaf" class="javax.swing.JLabel" binding="NumOfGearsTextField">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-6579301"/>
+              <text value="Number of gears"/>
+            </properties>
+          </component>
+          <component id="9712d" class="javax.swing.JComboBox" binding="gearboxNumOfGearsField">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="1"/>
+                <item value="2"/>
+                <item value="3"/>
+                <item value="4"/>
+                <item value="5"/>
+                <item value="6"/>
+                <item value="7"/>
+                <item value="8"/>
+                <item value="9"/>
+                <item value="10"/>
+              </model>
+            </properties>
+          </component>
+          <component id="6a053" class="javax.swing.JComboBox" binding="gearboxComboBox">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="standard"/>
+                <item value="comfort"/>
+                <item value="sport"/>
+              </model>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="7f8d4" binding="enginePanel" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14868964"/>
+          <preferredSize width="800" height="600"/>
+        </properties>
+        <border type="empty" title="Engine" title-justification="1">
+          <font name="Bahnschrift" size="22" style="1"/>
+          <title-color color="-1"/>
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="546ec" class="javax.swing.JLabel" binding="engineTextField">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-6579301"/>
+              <text value="Model"/>
+            </properties>
+          </component>
+          <component id="6a72e" class="javax.swing.JLabel" binding="engineTypeTextField">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-6579301"/>
+              <text value="Type"/>
+            </properties>
+          </component>
+          <component id="4a492" class="javax.swing.JRadioButton" binding="radioButtonPetrol">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14868964"/>
+              <foreground color="-1"/>
+              <text value="Petrol"/>
+            </properties>
+          </component>
+          <component id="27405" class="javax.swing.JRadioButton" binding="radioButtonDiesel">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14868964"/>
+              <foreground color="-1"/>
+              <selected value="false"/>
+              <text value="Diesel"/>
+            </properties>
+          </component>
+          <component id="d071f" class="javax.swing.JLabel" binding="hpTextField">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-6579301"/>
+              <text value="HP"/>
+            </properties>
+          </component>
+          <component id="7efbe" class="javax.swing.JTextField" binding="engineHPField">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="ca438" class="javax.swing.JComboBox" binding="engineComboBox">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="standard"/>
+                <item value="comfort"/>
+                <item value="sport"/>
+              </model>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="d83dc" binding="buttonPanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="250" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14868964"/>
+          <preferredSize width="800" height="600"/>
+        </properties>
+        <border type="empty"/>
+        <children>
+          <component id="d026f" class="javax.swing.JButton" binding="addButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14868964"/>
+              <foreground color="-16166625"/>
+              <horizontalAlignment value="0"/>
+              <text value="Add"/>
+            </properties>
+          </component>
+          <component id="d3263" class="javax.swing.JButton" binding="cancelButton">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14868964"/>
+              <foreground color="-4521962"/>
+              <text value="Cancel"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="17220" class="javax.swing.JLabel" binding="errorLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <foreground color="-4521962"/>
+          <opaque value="false"/>
+          <text value="INVALID VALUE"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="fuel">
+      <member id="27405"/>
+      <member id="4a492"/>
+    </group>
+  </buttonGroups>
+</form>
